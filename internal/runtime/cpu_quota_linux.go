@@ -27,7 +27,7 @@ import (
 	"errors"
 	"math"
 
-	cg "go.uber.org/automaxprocs/internal/cgroups"
+	cg "github.com/cccccarl/automaxprocs/internal/cgroups"
 )
 
 // CPUQuotaToGOMAXPROCS converts the CPU quota applied to the calling process
